@@ -1,3 +1,6 @@
+
+document.addEventListener("DOMContentLoaded", function() {
+
 const API_URL = "https://api.thecatapi.com/v1/breeds";
 const container = document.getElementById("cats-container");
 const filter = document.getElementById("filter-origin");
@@ -67,4 +70,6 @@ toggleTheme.addEventListener("click", () => {
   toggleTheme.textContent = document.body.classList.contains("dark")
     ? "☀️ Mode Clair"
     : "🌙 Mode Sombre";
+});
+
 });
