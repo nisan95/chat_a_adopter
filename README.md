@@ -23,8 +23,8 @@ toggle : utilisé pour activer/désactiver un affichage (ex. : mode sombre).
 Ces événements permettent de rendre l’application interactive, dynamique et réactive aux actions de l’utilisateur. 
 ## badges
 presentation de mode claire
-![alt text](image.png)
+![alt text](./assets/image.png)
 presentation de mode sombre
-![alt text](image-2.png)
+![alt text](./assets/image-2.png)
 un chat liker
-![alt text](image-3.png)
+![alt text](./assets/image-3.png)

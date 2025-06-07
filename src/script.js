@@ -33,7 +33,7 @@ function displayCats(cats) {
     card.className = "card";
 
     const img = document.createElement("img");
-    img.src = cat.image?.url || "./chat.jpg";
+    img.src = cat.image?.url || "./assets/chat.jpg";
     img.alt = cat.name;
 
     const name = document.createElement("h3");
